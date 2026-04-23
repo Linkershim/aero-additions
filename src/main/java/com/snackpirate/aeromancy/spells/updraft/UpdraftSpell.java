@@ -23,7 +23,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-@AutoSpellConfig
 public class UpdraftSpell extends AbstractSpell {
 	private final DefaultConfig defaultConfig;
 

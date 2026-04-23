@@ -17,7 +17,6 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.Level;
 
-@AutoSpellConfig
 public class ShapeshiftSpell extends AbstractSpell {
 	private final DefaultConfig defaultConfig;
 	@Override

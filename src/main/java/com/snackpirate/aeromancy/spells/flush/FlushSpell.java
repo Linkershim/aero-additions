@@ -20,7 +20,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.FluidState;
 
-@AutoSpellConfig
 public class FlushSpell extends AbstractSpell {
 
 	private final DefaultConfig defaultConfig = new DefaultConfig()

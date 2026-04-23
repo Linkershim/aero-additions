@@ -18,7 +18,6 @@ import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.common.NeoForge;
 
 import javax.annotation.Nullable;
-@AutoSpellConfig
 public class SummonBreezeSpell extends AbstractSpell {
 
     private final DefaultConfig defaultConfig = new DefaultConfig()

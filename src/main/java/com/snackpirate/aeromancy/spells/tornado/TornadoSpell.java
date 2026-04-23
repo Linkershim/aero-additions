@@ -18,7 +18,6 @@ import net.minecraft.world.phys.Vec3;
 
 import java.util.Optional;
 
-@AutoSpellConfig
 public class TornadoSpell extends AbstractSpell {
 	@Override
 	public ResourceLocation getSpellResource() {

@@ -17,7 +17,6 @@ import net.minecraft.world.level.Level;
 
 import java.util.List;
 
-@AutoSpellConfig
 public class WindChargeSpell extends AbstractSpell {
 
 	public WindChargeSpell() {

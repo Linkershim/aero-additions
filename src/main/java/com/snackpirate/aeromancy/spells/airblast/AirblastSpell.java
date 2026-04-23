@@ -26,7 +26,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-@AutoSpellConfig
 public class AirblastSpell extends AbstractSpell {
 	@Override
 	public List<MutableComponent> getUniqueInfo(int spellLevel, LivingEntity caster) {

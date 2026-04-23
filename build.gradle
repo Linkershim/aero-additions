@@ -155,6 +155,7 @@ dependencies {
     compileOnly "io.redspace:irons_spellbooks:${irons_spells_version}:api"
 
     implementation "io.redspace:irons_spellbooks:${irons_spells_version}"
+    localRuntime "io.redspace:irons_lib:${irons_lib_version}"
 
     runtimeOnly "io.redspace:irons_jewelry:1.0.2"
     localRuntime "io.redspace:atlas_api:1.21-1.0.1"

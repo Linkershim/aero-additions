@@ -20,7 +20,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
 
-@AutoSpellConfig
 public class AsphyxiateSpell extends AbstractSpell {
 	private final DefaultConfig defaultConfig;
 	@Override

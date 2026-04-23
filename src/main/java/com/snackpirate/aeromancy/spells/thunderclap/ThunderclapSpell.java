@@ -14,7 +14,6 @@ import java.util.Optional;
 //Like Hulk's thunderclap move, a big loud clap that sends a shockwave of pressurized air forwards
 //Does damage, knockback, and stuns
 //Awesome sfx
-@AutoSpellConfig
 public class ThunderclapSpell extends AbstractSpell {
 	public ThunderclapSpell() {
 		this.manaCostPerLevel = 20;

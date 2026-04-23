@@ -22,7 +22,6 @@ import net.neoforged.neoforge.network.PacketDistributor;
 
 import java.util.List;
 
-@AutoSpellConfig
 public class DashSpell extends AbstractSpell {
 	@Override
 	public List<MutableComponent> getUniqueInfo(int spellLevel, LivingEntity caster) {

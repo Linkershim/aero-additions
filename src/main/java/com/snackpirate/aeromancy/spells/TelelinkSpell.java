@@ -24,7 +24,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-@AutoSpellConfig
 public class TelelinkSpell extends AbstractSpell {
 	private final DefaultConfig defaultConfig;
 

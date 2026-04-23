@@ -3,7 +3,6 @@
   "package": "com.snackpirate.aeromancy.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "GustSpellMixin",
     "ServerPacketListenerMixin",
     "ServerPlayerMixin"
   ],

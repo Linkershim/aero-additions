@@ -16,7 +16,6 @@ import net.minecraft.world.level.Level;
 
 import java.util.List;
 
-@AutoSpellConfig
 public class WindShieldSpell extends AbstractSpell {
 	public WindShieldSpell() {
 		this.manaCostPerLevel = 30;
