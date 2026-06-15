@@ -1,7 +1,5 @@
 package com.snackpirate.aeromancy.spells.wind_shield;
 
-import com.snackpirate.aeromancy.network.AeromancySpellData;
-import io.redspace.ironsspellbooks.api.magic.MagicData;
 import io.redspace.ironsspellbooks.effect.ISyncedMobEffect;
 import io.redspace.ironsspellbooks.effect.MagicMobEffect;
 import net.minecraft.world.effect.MobEffectCategory;

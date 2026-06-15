@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "aero_additions:wind_rune"
   },
-  "materialType": [
-    "spellbooks_rune"
-  ],
   "paletteLocation": "aero_additions:palettes/rune_wind",
   "quality": 1.5,
   "bonusParameters": {

@@ -22,6 +22,7 @@ import com.snackpirate.aeromancy.spells.wind_charge.MagicWindCharge;
 import com.snackpirate.aeromancy.spells.wind_charge.WindChargeSpell;
 import com.snackpirate.aeromancy.spells.wind_shield.WindShieldEffect;
 import com.snackpirate.aeromancy.spells.wind_shield.WindShieldSpell;
+import io.redspace.ironslib.registry.IronsLibRegistries;
 import io.redspace.ironsspellbooks.api.attribute.MagicRangedAttribute;
 import io.redspace.ironsspellbooks.api.registry.SchoolRegistry;
 import io.redspace.ironsspellbooks.api.registry.SpellRegistry;
@@ -149,7 +150,7 @@ public class AASpells {
 	public static class MobEffects {
 		public static final DeferredRegister<MobEffect> MOB_EFFECTS = DeferredRegister.create(Registries.MOB_EFFECT, Aeromancy.MOD_ID);
 
-		public static final DeferredHolder<MobEffect, MobEffect> WIND_SHIELD = MOB_EFFECTS.register("wind_shield", () -> new WindShieldEffect(MobEffectCategory.BENEFICIAL, 0xd3ebea));
+		public static final DeferredHolder<MobEffect, MobEffect> WIND_SHIELD = MOB_EFFECTS.register("wind_shield", () -> new WindShieldEffect(MobEffectCategory.BENEFICIAL, 0xd3ebea).addAttributeModifier(IronsLibRegistries.AttributeRegistry.DODGE_CHANCE.getDelegate(), Aeromancy.id("wind_shield_dodge"), 0.03, AttributeModifier.Operation.ADD_VALUE));
 		public static final DeferredHolder<MobEffect, MobEffect> BREATHLESS = MOB_EFFECTS.register("breathless", () -> new BreathlessEffect(MobEffectCategory.HARMFUL, 0xd3ebea)
 				.addAttributeModifier(net.minecraft.world.entity.ai.attributes.Attributes.MOVEMENT_SPEED,
 						Aeromancy.id( "breathless_slow"),
